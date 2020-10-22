@@ -29,7 +29,6 @@ namespace Commander
                 s => s.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver()
             );
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-            //services.AddScoped<ICommanderRepo, MockCommanderRepo>();            
             services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
         }
 

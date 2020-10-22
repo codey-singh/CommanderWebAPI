@@ -2,7 +2,7 @@
 ASP.NET Core sample web api to store commonly used commands.
 
 ## Prerequisites
-* SQL Server - either docker or local.
+* Microsoft SQL Server - either docker or local.
 * dotnet core installed on the system.
 
 ### To run the project:
